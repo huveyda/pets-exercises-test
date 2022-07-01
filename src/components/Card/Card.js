@@ -1,6 +1,7 @@
 import heartFilled from "../svgs/heartFilled.svg";
 import heartOutlined from "../svgs/heartOutlined.svg";
 import {useState} from "react";
+import "./Card.css"
 
 
 function Card  ({name, phone, email, image, favoured}) {
